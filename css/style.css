@@ -1,0 +1,185 @@
+.hero {
+    padding-bottom: 50px;
+}
+
+.hero-introduction {
+    padding: 50px 30px;
+}
+
+.hero-introduction h1 strong {
+    font-size: 96px;
+    color: var(--color-violet);
+}
+
+.hero-underline {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.hero-underline--content {
+    width: 60%;
+    text-align: left;
+    border-bottom: 4px solid var(--color-violet);
+}
+/* 
+=========================================================================
+introduction
+========================================================================= 
+*/
+
+.introduction-underline {
+    display: flex;
+    flex-direction: row;
+}
+
+.introduction-underline--content {
+    width: 80%;
+    text-align: right;
+    border-top: 4px solid var(--color-violet);
+}
+
+.introduction-content {
+    width: 60%;
+    padding: 50px 30px;
+}
+
+.introduction-content strong {
+    color: var(--color-violet);
+}
+/* 
+=========================================================================
+values
+========================================================================= 
+*/
+
+.values-underline {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.values-underline--content {
+    width: 80%;
+    text-align: left;
+    border-bottom: 4px solid var(--color-violet);
+}
+
+.values-content {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 50px 30px;
+}
+
+.values-content--writing {
+    width: 60%;
+}
+
+.values-content--writing ol li strong {
+    color: var(--color-violet);
+}
+
+/* 
+=========================================================================
+skills
+========================================================================= 
+*/
+
+.skills-underline {
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-underline--content {
+    width: 80%;
+    text-align: right;
+    border-top: 4px solid var(--color-violet);
+}
+
+.skills-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-content--writing {
+    width: 60%;
+    padding: 50px 30px;
+}
+
+.skills-content--writing h6 strong {
+    color: var(--color-violet);
+}
+/* 
+=========================================================================
+tools
+========================================================================= 
+*/
+
+.tools-underline {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.tools-underline--content {
+    width: 80%;
+    text-align: left;
+    border-bottom: 4px solid var(--color-violet);
+}
+
+.tools-content {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.tools-content--writing {
+    width: 60%;
+    padding: 50px 30px;
+}
+
+.tools-content--writing h6 strong {
+    color: var(--color-violet);
+}
+
+ /* 
+=========================================================================
+contact
+========================================================================= 
+*/
+.contact-underline {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-underline--content {
+    width: 80%;
+    text-align: right;
+    border-bottom: 4px solid var(--color-violet);
+}
+
+.contact-content {
+    width: 60%;
+    padding: 50px 30px;
+}
+
+.contact-content h1 {
+    color: var(--color-violet);
+}
+
+ /* 
+=========================================================================
+footer
+========================================================================= 
+*/
+
+.footer {
+    background-color: var(--color-lavender);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-logo {
+    padding: 30px 50px;
+}
+
+.footer-nav a {
+    color: var(--color-eggplant);
+}
